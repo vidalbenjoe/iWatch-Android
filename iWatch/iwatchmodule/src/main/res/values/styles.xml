@@ -1,0 +1,51 @@
+<resources>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat">
+    <item name="activatedBackgroundIndicator">@drawable/listitem_background</item>
+    <item name="actionBarItemBackground">@drawable/selectable_background_main</item>
+    </style>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="text_style" >
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:textColor" >#ffffff</item>
+        <item name="android:textSize" >17dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:shadowDx" >1</item>
+        <item name="android:shadowDy" >1</item>
+        <item name="android:shadowRadius" >2</item>
+    </style>
+
+    <style name="blackbutton_text" >
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:textColor" >#000000</item>
+        <item name="android:gravity" >center</item>
+
+        <item name="android:textSize" >17dp</item>
+
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:shadowDx" >1</item>
+        <item name="android:shadowDy" >1</item>
+        <item name="android:shadowRadius" >2</item>
+    </style>
+
+    <style name="mediumdark_purple_text" >
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:textColor" >#ff2f1546</item>
+        <item name="android:gravity" >center</item>
+
+        <item name="android:textSize" >17dp</item>
+
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:shadowDx" >1</item>
+        <item name="android:shadowDy" >1</item>
+        <item name="android:shadowRadius" >2</item>
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--purple-->
+    <color name="purple_light">#a276eb</color>
+    <color name="purple_darkbackground">#ffa600cf</color>
+    <color name="purple_background">#D100FF</color>
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+    <color name="icon_color">#411780</color>
+    <color name="drawer_headercolor">#ff27164f</color>
+    <color name="drawer_menucolor">#ff2e185c</color>
+    <color name="edittext_color">#2F1749</color>
+    <color name="mediumdark_purple">#ff2f1546</color>
+    <color name="darkblack_purple">#ff180d27</color>
+    <color name="navsection_purple">#ff0c0a18</color>
+    <color name="divider_color">#ff56229a</color>
+
+    <color name="pinklight_background">#ffe51bbe</color>
+    <color name="pink_background">#ffaa1688</color>
+    <color name="header_background">#ff920f71</color>
+    <!--yellow-->
+    <color name = "yellow_light">#fffff77c</color>
+    <color name = "yellow_medium">#fffaff49</color>
+    <color name = "yellow_dark">#ffe2ca00</color>
+
+
+
+    <!--accordion-->
+
+    <color name="border_color">#dedede</color>
+    <color name="header_color">#f6f6f6</color>
+    <color name="header_border_shadow">#ffffff</color>
+    <color name="section_color">#f0f0f0</color>
+
+
+    <color name="homescreen_colorblue">#ffcdfaff</color>
+    <color name="homescreen_colordarkblue">#ff2f9ce7</color>
+    <color name="homescreen_colorpurple">#ff8623dd</color>
+    <color name="homescreen_colorlightpurple">#fff1f1ff</color>
+    <color name="homescreen_colorgrey">#ffdddddd</color>
+    <color name="homescreen_colorwhite">#ffffffff</color>
+    <color name="black_font">#ff000000</color>
+
+
+<!--Flat UI-->
+    <color name="flat_background">#394264</color>
+    <color name="fb_colorbg">#1771D5</color>
+    <color name="flat_btred">#ffe6324f</color>
+    <color name="flat_btbluegreen">#ff2ae0ce</color>
+    <color name="flat_btlightblue">#4fc4f6</color>
+
+    <color name="greenStart">#ff33dd44</color>
+    <color name="greenMid">#ff0A8815</color>
+    <color name="greenEnd">#ff1da130</color>
+
+</resources>

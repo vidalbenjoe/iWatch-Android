@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkblack_purple">
+
+    <!-- Header aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/genheader"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Note: The list is just a few examples of situations. Other cases may be asked to PCW and other concerened organization through iwatch helpdesk"
+            android:textColor="#ffffffff"
+
+            android:textSize="12sp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_below="@+id/genheader"
+        android:layout_width="match_parent"
+        android:textColor="@color/black_font"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Type a situation..."
+        android:background="@drawable/rounded_edittext"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:layout_below="@+id/search"
+        android:layout_above="@+id/footer"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:dividerHeight="2dp"
+        android:divider="@color/purple_light"/>
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commission on Women"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

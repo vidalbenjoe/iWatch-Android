@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <resources>
+
+        <string name="error_connectionfailed">Connection failed</string>
+
+        <string name="simplemap_info_title">Info</string>
+    <string name="simplemap_info_details"><![CDATA[
+        <p><b>Features:</b></p>
+        <p>- Just a simple map with a Quezon City Police location.</p>
+
+        ]]>
+        </string>
+
+    </resources>

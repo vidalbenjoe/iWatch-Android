@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/header_color">
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/abmcfooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:text="Report a Bug"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+<!--
+    <TextView
+        android:id="@+id/destinationLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+-->
+    <EditText
+        android:id="@+id/destinationAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black_font"
+        android:visibility="gone">
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/subjectLabel"
+        android:textColor="@color/black_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject : "
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:textColor="@color/black_font"
+        android:background="@color/homescreen_colorgrey"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/message_body_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message : "
+        android:textColor="@color/black_font"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/messageBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:background="@color/homescreen_colorgrey"
+        android:textColor="@color/black_font"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="@color/header_color"
+        android:textStyle="bold"
+
+        android:background="@drawable/purple_button"/>
+
+
+
+</LinearLayout>

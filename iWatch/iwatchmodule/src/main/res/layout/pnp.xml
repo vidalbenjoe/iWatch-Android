@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/header_color"
+    android:layout_above="@+id/footer">
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="DSWD - NCR"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:textColor="@color/black_font"
+        android:paddingLeft="20dp"
+        android:text="Philippine National Police (PNP)"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camp Crame, Lungsod Quezon"
+        android:paddingLeft="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/black_font"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7230401"
+        android:textColor="#000000"
+        android:paddingTop="20dp"
+        android:enabled="false"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/purple_button"
+        android:textStyle="bold"
+        android:text="Call" />
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/header_color">
+
+    <ScrollView android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/abmcheader"
+        android:layout_above="@id/abmcfooter">
+        <LinearLayout
+            android:id="@+id/listuserd"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="50dp"
+                android:textSize="20dp"
+                android:textColor="@color/black_font"
+                 android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:hint="Email:"/>
+
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black_font"
+                android:singleLine="true"
+                android:hint="Name:"/>
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/black_font"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:inputType="phone"
+                android:hint="Mobile:"/>
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black_font"
+                android:inputType="textPostalAddress"
+                android:hint="Address:"/>
+
+            <TextView
+                android:id="@+id/tvBdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black_font"
+                android:inputType="date"
+                android:hint="(YYYY-MM-DD) Birthdate:"/>
+
+
+            <TextView
+                android:id="@+id/tvPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:inputType="number"
+                android:textColor="@color/black_font"
+                android:hint="Points:"/>
+
+
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <Button android:id="@+id/btnEdit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Change Password"
+                    android:textStyle="bold"
+                    android:background="@color/purple_dark"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/abmcfooter"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/sv1"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="User Detail"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/abmcfooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commision on Women"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

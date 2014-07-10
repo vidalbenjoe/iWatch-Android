@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="metaioMobileSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/iwatchmodule/libs/metaioMobileSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

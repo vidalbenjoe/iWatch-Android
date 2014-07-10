@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Text"
+            android:visibility="invisible"/>
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/abmcfooter">
+        <LinearLayout
+           android:id="@+id/dashboardid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/divider_color">"
+
+            <Button
+                android:id="@+id/btnImg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/banner7"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/arrowdown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="15dp"
+                android:textSize="13dp"
+                android:drawableTop="@drawable/arrowdown"
+
+               />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+
+                android:background="@color/homescreen_colorlightpurple"
+                android:textColor="@color/black_font"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="10dp"
+                android:textSize="13dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:text="1"/>
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textSize="13dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:text="2"/>
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:background="@color/homescreen_colorlightpurple"
+                android:textColor="@color/black_font"
+                android:drawableRight="@drawable/leftarrow"
+                android:textSize="13dp"
+                android:paddingLeft="25dp"
+                android:text="3"/>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:paddingTop="14dp"
+                android:textSize="13dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:text="4"/>
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorlightpurple"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:paddingTop="14dp"
+                android:textSize="13dp"
+                android:gravity="left"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingLeft="25dp"
+                android:text="5"/>
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:text="6"/>
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorlightpurple"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:text="7"/>
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textSize="13dp"
+                android:paddingTop="14dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingLeft="25dp"
+                android:text="8"/>
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorlightpurple"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:textSize="13dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:paddingTop="14dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingLeft="25dp"
+                android:text="9"/>
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/homescreen_colorwhite"
+                android:textColor="@color/black_font"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textSize="13dp"
+                android:drawableRight="@drawable/leftarrow"
+                android:paddingTop="14dp"
+                android:paddingLeft="25dp"
+                android:text="10"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Footer aligned to bottom
+    <RelativeLayout
+        android:layout_below="@+id/dashboardid"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commision on Women"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>-->
+
+
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/abmcfooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commission on Women"
+            android:textColor="#ffffffff"
+            android:textSize="19sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

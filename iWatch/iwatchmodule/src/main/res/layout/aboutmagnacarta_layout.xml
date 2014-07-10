@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magnacartasearchid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <!-- Header aligned to top -->
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/abmcfooter"
+        android:layout_below="@+id/abmcheader"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/homescreen_colorwhite">
+
+
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/magnatitleabout">
+
+       <ImageView
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:background="@drawable/magnacartaabout"/>
+</ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/abmcfooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commission on Women"
+            android:textColor="#ffffffff"
+            android:textSize="19sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

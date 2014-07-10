@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magnacartasearchid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <!-- Header aligned to top -->
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/mcfooter"
+        android:layout_below="@+id/mcheader"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/purple_darkbackground">
+        <!-- Editext for Search -->
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Search Law.."
+            android:inputType="textVisiblePassword"/>
+        <!-- List View -->
+        <ListView
+            android:id="@+id/list_viewmc"
+            android:layout_below="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+//add back button in upper left corner of header
+
+    </RelativeLayout>
+
+
+
+    <!-- Header aligned to top -->
+
+    <RelativeLayout
+        android:id="@+id/mcheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Magna Carta of Women RA 9710"
+            android:textColor="#ffffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/mcfooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commision on Women"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

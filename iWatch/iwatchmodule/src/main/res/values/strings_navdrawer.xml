@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navdrawer_appname">iWatch</string>
+    <string name ="navdrawer_home">Home</string>
+    <string name="navdrawer_magnacarta">Magna Carta</string>
+    <string name="navdrawer_antivaw">Anti Vaw Law</string>
+    <string name="navdrawer_helpdesk">Help Desk</string>
+    <string name="navdrawer_emergency">Emergency/Sms</string>
+    <string name="navdrawer_report">Report</string>
+    <string name="navdrawer_map">Police Map</string>
+    <string name="navdrawer_profile">Profile</string>
+    <string name="navdrawer_alerts">PCW Events</string>
+    <string name="navdrawer_feeds">Headlines</string>
+    <string name="navdrawer_rewards">Rewards</string>
+    <string name="navdrawer_helplines">Help Lines</string>
+    <string name="navdrawer_stat">Statistical Report</string>
+
+
+
+    <string name="navdrawer_general">General</string>
+    <string name="navdrawer_settings">Settings</string>
+    <string name="navdrawer_facebook">Facebook</string>
+    <string name="navdrawer_twitter">Twitter</string>
+    <string name="navdrawer_rating">Rate this app</string>
+    <string name="navdrawer_Definitionofterm">Definition of Terms</string>
+    <string name="navdrawer_reportbug">Report a Bug</string>
+    <string name="navdrawer_about">About</string>
+    <string name="navdrawer_eula">Eula</string>
+    <string name="navdrawer_exit">Log out</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

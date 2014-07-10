@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <!--
+    Future:
+        General:
+            - Theme Holo.light
+            - Network/Batterie best pratices
+            - Proguard
+            - https://github.com/gabrielemariotti/changeloglib
+        Home
+            - Find another layout for home screen
+		Changelog
+			- use library instead
+        Tutorials
+            - offline mode
+        Airport
+            - fix speed/altitude
+        About me screen
+        CityActivity
+            - search activity, filter, etc..
+            - integrate a line: my position
+    -->
+
+
+
+    <release version="1.0.0" versioncode="100">
+        <change>iWatch: Women's Awareness Mobile Application</change>
+        <change>Developed by Students of Technological Institute of the Philippines</change>
+        <change>BENJOE|ALLEN|MARK|JOSAN</change>
+        <change>ADVISER: Rosmina Joy Cabauatan</change>
+        <change>SPECIAL THANKS TO: Dean Bartolome Tanguilig III|Mr.Jun Reyes|Mrs. Lorena Rabago|Ms. Jean Maitem|Mr. Gerald Cayabyab|Mr. Rey Castillo|Ms. Roxanne Ancheta| Mr. Sam Araja|Rose Ann Gonzales|Paolo Felonia</change>
+    </release>
+
+
+</changelog>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkblack_purple">
+
+    <ListView
+
+        android:layout_above="@id/footer"
+        android:layout_below="@+id/genheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/purple_light"
+        android:dividerHeight="2dp"
+
+        android:id="@android:id/list"/>
+
+    <!-- Header aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/genheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Facebook Headlines"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Philippine Commision on Women"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

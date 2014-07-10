@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iWatch.iml" filepath="$PROJECT_DIR$/iWatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iwatchmodule/iwatchmodule.iml" filepath="$PROJECT_DIR$/iwatchmodule/iwatchmodule.iml" />
+    </modules>
+  </component>
+</project>
+
